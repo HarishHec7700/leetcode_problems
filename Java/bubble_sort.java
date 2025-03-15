@@ -1,5 +1,5 @@
 //  Bubble sort
-//  Here we need to compare the consecutive numbers and then we need to if according to the condition 
+//  Here we need to compare the consecutive numbers and then we need to swap it according to the condition 
 //  Here we need 2 loops to iterate the second loop to check after the consecutive numbers and once the 1st iteration of the first loop completes we get the one sorted element to the front or the back acc to the condtion 
 
 
