@@ -15,10 +15,12 @@ class Main{
     public static int longestSubstring(String str){
         int maxLen = 0;
         int left = 0;
+        // we are using the set to store the non repeating characters 
         Set<Character> mem = new HashSet<>();
-        
-        for(int right=0 ; right < str.length(); right++){
 
+        // Here we are using the two pointers method where both start at the first and the right gradually incr until it found the repeating character
+        for(int right=0 ; right < str.length(); right++){
+            // Running while loop to find whether the char is present in the hash set or not
             while(mem.contains(s.charAt(right))){
                 mem.remove(s.charAt(left));
                 left++;
